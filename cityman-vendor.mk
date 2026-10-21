@@ -322,7 +322,7 @@ PRODUCT_COPY_FILES += \
     vendor/msft/cityman/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
     vendor/msft/cityman/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
     vendor/msft/cityman/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
-    vendor/msft/cityman/proprietary/vendor/lib/libmmcamera_mot_imx230.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx230.so \
+    vendor/msft/cityman/proprietary/vendor/lib/libmmcamera_mot_imx230.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx230_moto.so \
     vendor/msft/cityman/proprietary/vendor/lib/libmmcamera_omnivision_ov5693_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_omnivision_ov5693_eeprom.so \
     vendor/msft/cityman/proprietary/vendor/lib/libmmcamera_ov5693.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5693.so \
     vendor/msft/cityman/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
