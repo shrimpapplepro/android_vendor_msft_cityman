@@ -536,6 +536,8 @@ PRODUCT_COPY_FILES += \
 
 # OnePlus 2 (msm8994, VFE46) mm-camera stack for the IMX230 adapter
 PRODUCT_COPY_FILES += \
+    vendor/msft/cityman/proprietary/vendor/lib/libactuator_rohm_bu63165gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu63165gwl.so \
+    vendor/msft/cityman/proprietary/vendor/lib/libactuator_rohm_bu63165gwl_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu63165gwl_camcorder.so \
     vendor/msft/cityman/proprietary/vendor/lib/libactuator_rohm_bu63165gwl_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu63165gwl_camera.so \
     vendor/msft/cityman/proprietary/vendor/lib/libchromatix_ov13860_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13860_common.so \
     vendor/msft/cityman/proprietary/vendor/lib/libchromatix_ov13860_cpp_hfr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13860_cpp_hfr.so \
