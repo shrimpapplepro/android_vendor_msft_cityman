@@ -86,9 +86,6 @@ PRODUCT_PACKAGES += \
     DCMO \
     DMConfigUpdate \
     DiagMon \
-    HotwordEnrollmentOKGoogleWCD9330 \
-    HotwordEnrollmentTGoogleWCD9330 \
-    HotwordEnrollmentXGoogleWCD9330 \
     LifeTimerService \
     com.google.android.camera.experimental2016 \
     qcrilhook \
