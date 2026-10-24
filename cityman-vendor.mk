@@ -83,7 +83,6 @@ PRODUCT_PACKAGES += \
     HiddenMenu \
     RCSBootstraputil \
     RcsImsBootstraputil \
-    Tycho \
     DCMO \
     DMConfigUpdate \
     DiagMon \
@@ -483,12 +482,9 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     qcrilhook \
     libqmi \
-    libqmi_client_qmux \
     libqmiservices \
     libqmi_cci \
-    libqmi_client_helper \
-    libmdmdetect \
-    ims
+    libmdmdetect
 
 # Add all missing proprietary libraries
 PRODUCT_COPY_FILES += \

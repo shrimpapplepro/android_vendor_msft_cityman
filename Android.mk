@@ -39,7 +39,7 @@ LOCAL_DEX_PREOPT := false
 # Define the name of the module being built
 LOCAL_MODULE_SUFFIX := .apk
 # Instruct the build system to copy a prebuilt file
-LOCAL_OPTIONAL_USES_LIBRARIES := com.qualcomm.qcrilhook
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 # Clear all local variables (LOCAL_*) before starting a new module definition
@@ -128,7 +128,7 @@ LOCAL_MODULE_SUFFIX := .apk
 # Configure LOCAL_PRIVILEGED_MODULE setting
 LOCAL_PRIVILEGED_MODULE := true
 # Instruct the build system to copy a prebuilt file
-LOCAL_OPTIONAL_USES_LIBRARIES := com.qualcomm.qcrilhook
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 # Clear all local variables (LOCAL_*) before starting a new module definition
@@ -152,7 +152,7 @@ LOCAL_MODULE_SUFFIX := .apk
 # Configure LOCAL_PRIVILEGED_MODULE setting
 LOCAL_PRIVILEGED_MODULE := true
 # Instruct the build system to copy a prebuilt file
-LOCAL_OPTIONAL_USES_LIBRARIES := com.qualcomm.qcrilhook
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 # Clear all local variables (LOCAL_*) before starting a new module definition
@@ -268,7 +268,7 @@ LOCAL_MODULE_SUFFIX := .apk
 # Configure LOCAL_PRIVILEGED_MODULE setting
 LOCAL_PRIVILEGED_MODULE := true
 # Instruct the build system to copy a prebuilt file
-LOCAL_USES_LIBRARIES := com.qualcomm.qcrilhook
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 # Clear all local variables (LOCAL_*) before starting a new module definition
@@ -336,6 +336,7 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 # Define the name of the module being built
 LOCAL_MODULE_SUFFIX := .jar
 # Instruct the build system to copy a prebuilt file
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 # Clear all local variables (LOCAL_*) before starting a new module definition
@@ -355,6 +356,7 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 # Define the name of the module being built
 LOCAL_MODULE_SUFFIX := .jar
 # Instruct the build system to copy a prebuilt file
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 # Clear all local variables (LOCAL_*) before starting a new module definition
@@ -374,6 +376,7 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 # Define the name of the module being built
 LOCAL_MODULE_SUFFIX := .jar
 # Instruct the build system to copy a prebuilt file
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 # Clear all local variables (LOCAL_*) before starting a new module definition
@@ -393,6 +396,7 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 # Define the name of the module being built
 LOCAL_MODULE_SUFFIX := .jar
 # Instruct the build system to copy a prebuilt file
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 # Clear all local variables (LOCAL_*) before starting a new module definition
@@ -412,6 +416,7 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 # Define the name of the module being built
 LOCAL_MODULE_SUFFIX := .jar
 # Instruct the build system to copy a prebuilt file
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 # Clear all local variables (LOCAL_*) before starting a new module definition
@@ -460,7 +465,7 @@ LOCAL_MODULE_SUFFIX := .apk
 # Configure LOCAL_VENDOR_MODULE setting
 LOCAL_VENDOR_MODULE := true
 # Instruct the build system to copy a prebuilt file
-LOCAL_USES_LIBRARIES := com.qualcomm.qcrilhook
+LOCAL_ENFORCE_USES_LIBRARIES := false
 include $(BUILD_PREBUILT)
 
 #include $(CLEAR_VARS)
